@@ -12,22 +12,6 @@ You are given movies loaded from the API and initial markup. Your task is to:
 1. Use `movie.imdbId` as a key.
 1. Keep all `data-cy` attributes to pass the tests.
 
-Вам надано фільми, завантажені з API, та початкову розмітку. Ваше завдання:
-
-1. Відрендерити фільми з заданого масиву `moviesFromServer` (для спрощення ви можете зробити це всередині `App` та розділити пізніше).
-
-1. Витягнути блок `.movies` до компонента `MovieList`.
-
-1. `App` повинен передати `moviesFromServer` до `MovieList` як властивість `movies`.
-
-1. Витягнути блок `.card` до компонента `MovieCard`.
-
-1. `MovieList` повинен передати `movie` до `MovieCard`.
-
-1. Використати `movie.imdbId` як ключ.
-
-1. Зберегти всі атрибути `data-cy` для проходження тестів.
-
 ## Instructions
 - Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
